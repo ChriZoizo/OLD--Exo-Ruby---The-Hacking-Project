@@ -1,19 +1,21 @@
-emails_list = []
-id = 0
 
+emails = Array.new
+n =0
 puts "creez les adresse mails ? (50) (Y) Yes / (N) No"
 case (gets.chomp)
-when 'y'
-    for i in 0..50 
-        puts "jean.dupont.%02d@gmail.fr" %[i]
-      
-    end
+ when 'y'
+     50.times do |i|
+     emails<< "jean.desmoulins#{n}@email.fr"
+     n += 1
+     end
+    puts emails
 
-when 'n' 
-    puts "bon bah au revoir alors"
-else 
+     when 'n' 
+     puts "bon bah au revoir alors"
+
+ else 
     puts "t'as pas compris ? N ou Y"
-
+    
 end
 
 
