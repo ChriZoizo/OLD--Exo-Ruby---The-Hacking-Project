@@ -1,4 +1,4 @@
-x = "\"salut ça va ducon ?\""
+x = "\"salut ça va l'artiste ?\""
 puts "puts #{x}"
 
 
