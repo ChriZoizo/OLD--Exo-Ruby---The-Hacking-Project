@@ -1,2 +1,3 @@
-puts "Salut tout le monde !" 
-puts "Et avec une voix sexy, ça donne toujours salut tout le monde"
+# print 2 messages in console
+puts "Hello World !" 
+puts "See you soon world ! :)"

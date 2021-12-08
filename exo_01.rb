@@ -1,1 +1,2 @@
-puts "Salut tout le monde !" 
+# print message in console
+puts "Hello World !" 

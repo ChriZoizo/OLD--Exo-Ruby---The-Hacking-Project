@@ -1,3 +1,5 @@
+
+
 puts "Salut, donne moi ton année de naissance"
 print "> "
 
